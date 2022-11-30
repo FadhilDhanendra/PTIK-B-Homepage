@@ -1,0 +1,286 @@
+.slider h3,
+.slider h5 ,
+.clients h3,
+.clients h5 {
+	text-shadow: 3px 3px 15px rgba(0,0,0,1);
+}
+
+.caption{
+	margin-top: 18%;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+.bio{
+	text-align: justify;
+}
+
+.ptikb22{
+	max-width: 45%;
+	height: auto;
+}
+
+@media (max-width: 992px) {
+	.ptikb22{
+		max-width: 70%;
+		display: block;
+		margin: auto;
+		margin-top: 18px;
+	}
+}
+
+.logoside{
+	background-color: #0d47a1;
+	padding: 1px;
+	height: 60px;
+	width: auto;
+}
+
+.logoside img{
+	height: 20px;
+	width: auto;
+}
+
+#about{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.card-title{
+	text-shadow: 3px 3px 15px rgba(0,0,0,1);
+	
+}
+
+span a {
+	color: white;
+}
+
+.parallax-container {
+	height: 20%;
+}
+
+.portfolio img {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 250px;
+	height: 125px;
+}
+
+.clients img {
+	max-width: 150px;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+.parallax{
+	filter: brightness(50%);
+}
+
+#univ{
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+.univlogo{
+	margin-bottom: 15px;
+	filter: drop-shadow(.5px .5px .5px rgba(0,0,0,0.8));
+}
+
+.classmember{
+	filter: drop-shadow(.5px .5px .5px rgba(0,0,0,0.8));
+}
+
+.classmember h4{
+	color: white;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+	line-height: 80%;
+}
+
+.classmember p{
+	color: white;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+	margin-bottom: 25px;
+}
+
+#textlogo{
+	padding-bottom: 4px;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+
+.avatarhvr :hover{
+	transition: .4s;
+	transform: scale(1.2);
+}
+
+.clients p{
+	color: white;
+	text-align: center;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+	padding-bottom: 8px;
+	line-height: 0%;
+}
+
+.services{
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+.contact{
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+#kotak{
+	height: 200px;
+	border-radius: 20px;
+}
+
+.card{
+	transform: scale(.9);
+	transition: .3s;
+}
+
+.card:hover {
+	z-index: 2;
+	transform: scale(1);
+}
+
+#contents{
+	padding-top: 1px;
+}
+
+.card-content h5{
+	font-size: 28px;
+}
+
+.card-content p{
+	font-size: 20px;
+}
+#contents .card-image img {
+	background-size: cover;
+	object-fit: cover;
+	width: 100%;
+}
+.card-content a{
+	
+	color: #2196f3;
+}
+
+.card-image img{
+	width: auto;
+	height: 200px;
+}
+.card-image{
+	border-radius: 20px;
+}
+
+.collection{
+	filter: drop-shadow(.5px 1.9px 1px rgba(99, 97, 97, 0.7));
+}
+
+
+.footer-main-div{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #272727;
+	padding: 20px 0px;
+}
+
+.footer-social-icons{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.footer-social-icons ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-social-icons ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 15px;
+	border-radius: 100%;
+	background: #0d47a1;
+}
+
+.footer-social-icons ul li a{
+	color: #ffffff;
+	font-size: 25px;
+	display: block;
+}
+
+.footer-social-icons ul li a i{
+	line-height: 50px;
+}
+
+.footer-social-icons ul li:hover{
+	background: #ffffff;
+}
+
+.footer-social-icons ul li:hover a{
+	color: #0d47a1;
+}
+
+.footer-menu-one{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 25px
+}
+
+.footer-menu-one ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-menu-one ul li{
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+.footer-menu-one ul li a{
+
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.footer-menu-one ul li a:hover{
+	color: #2196f3;
+}
+
+.disclaimer{
+	padding: 7px 0px;
+	background-color: #272727;
+	color: white;
+	text-align: center	;
+}
+
+.footer-bottom{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: #2196f3;
+	padding: 5px;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.footer-bottom p a{
+	color: #fff;
+}
